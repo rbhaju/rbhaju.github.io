@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Playfair Display";
+    font-size: 22px;
+    background-color: white;
+    display: grid;
+    place-content: center;
+  }
+  .topnav {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .topnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 3px solid transparent;
+  }
+  .topnav li {
+    display: inline;
+  }
+  .topnav a:hover {
+    border-bottom: 3px solid rgb(15, 14, 14);
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid rgb(11, 10, 10);
+  }
+  li {
+    list-style: none;
+    font-size: 25px;
+  }
+  .aboutMe {
+    display: flex;
+    justify-content: center;
+    margin: 0 50px 0 50px;
+  }
+  .aboutMe-image {
+    margin-bottom: 30px;
+  }
+  .aboutMe-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #a7b64e;
+    margin-bottom: 28px;
+    padding-left: 30px;
+    row-gap: 10px;
+  }
+  
+  .aboutMe-image img {
+    width: 100%;
+    height: 100%;
+  }
+  .aboutMe-btn {
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .aboutMe-btn:hover {
+    background-color: rgb(125, 163, 125);
+    border: 2px rgb(125, 163, 125);
+    transition: 0.2s;
+  }
+  
+  .moreMe {
+    display: grid;
+    place-items: center;
+    margin: 0 50px 0 50px;
+    
+    
+
+  }
+  .moreMe-txt{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #a7b64e;
+    padding: 60px;
+    margin-top: 30px;
+  }
+  
+  .skillsMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .skillImage img {
+    width: 10rem;
+    height: 10rem;
+  }
+  .imageMe {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .skillImage {
+    padding: 15px;
+  }
+  footer {
+    background-color: #a7b64e;
+    display: grid;
+    place-items: center;
+  }
+  
+  .footnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footnav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    border-bottom: 3px solid transparent;
+    width: 100%;
+  }
+  .footnav li {
+    display: inline;
+  }
+  .footnav a:hover {
+    border-bottom: 3px solid rgb(15, 14, 14);
+  }
+  
+  .footnav a.active {
+    border-bottom: 3px solid rgb(11, 10, 10);
+  }
+  
+  .footerCpytxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #a7b64e;
+  }
+  @media only screen and (max-width: 768px) {
+    .aboutMe {
+      display: flex;
+      flex-direction: column;
+    }
+    .imageMe {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  }
+  
